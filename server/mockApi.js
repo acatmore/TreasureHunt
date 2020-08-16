@@ -21,4 +21,5 @@ const treasureApi = {
   },
 };
 
-export default treasureApi
+export default treasureApi;
+
