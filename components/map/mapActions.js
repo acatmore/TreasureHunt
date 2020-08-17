@@ -1,5 +1,4 @@
 /* eslint-disable prettier/prettier */
-import * as ActionTypes from './mapActionTypes';
 import { call, put, takeLatest } from 'redux-saga/effects';
 import {
   FETCH_ITEMS,
@@ -15,7 +14,8 @@ export const fetchItems = () => {
   return { type: FETCH_ITEMS };
 };
 
-export function* fetchALLItems() {
+
+export function* fetchAllItems() {
   const api = treasureApi
   if (!api) { return; }
   try {
@@ -28,7 +28,7 @@ export function* fetchALLItems() {
 }
 
 function* itemsSaga() {
-  yield takeLatest(ActionTypes.FETCH_ITEMS, fetchALLItems);
+  yield takeLatest(FETCH_ITEMS, fetchAllItems);
 }
 
 export default itemsSaga;

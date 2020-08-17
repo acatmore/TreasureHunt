@@ -1,12 +1,14 @@
 /* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from 'react';
+import { Alert } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchItems } from './mapActions';
+import { checkTreasure } from './markerActions';
 import { Marker } from 'react-native-maps';
 
 const Markers = (props) => {
-  const { items, fetchItems } = props;
+  const { items, checkTreasure, fetchItems } = props;
   useEffect(() => {
     fetchItems();
   }, [fetchItems]);
@@ -16,6 +18,9 @@ const Markers = (props) => {
         <Marker
           key={item.id}
           coordinate={{ latitude: item.latitude, longitude: item.longitude }}
+          onPress={() =>
+            checkTreasure(item.id)
+          }
         />
       ))}
     </>
@@ -31,7 +36,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return bindActionCreators({ fetchItems }, dispatch);
+  return bindActionCreators({ fetchItems, checkTreasure }, dispatch);
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Markers);
