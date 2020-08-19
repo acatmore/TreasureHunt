@@ -20,10 +20,10 @@ const mapReducer = (state = initState, action) => {
     case MarkerActionTypes.CHECK_TREASURE: return {
       ...state, isFetching: true,
     }
-    case MarkerActionTypes.CHECK_TREASURE_SUCCESS: {
+    case MarkerActionTypes.FETCH_TREASURE_SUCCESS: {
       const newItems = state.items.map(item => {
-        if (item.id !== action.itemId) {
-          return item
+        if (item.id !== action.item.id) {
+          return item;
         }
         return {
           ...item,

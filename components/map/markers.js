@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
-import React, { useState, useEffect } from 'react';
-import { Alert } from 'react-native';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchItems } from './mapActions';
@@ -18,9 +17,7 @@ const Markers = (props) => {
         <Marker
           key={item.id}
           coordinate={{ latitude: item.latitude, longitude: item.longitude }}
-          onPress={() =>
-            checkTreasure(item.id)
-          }
+          onPress={() => checkTreasure(item)}
         />
       ))}
     </>

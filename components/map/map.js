@@ -12,11 +12,11 @@ const Map = (props) => {
   // console.log(props.items[0].longitude)
   const windowHeight = Dimensions.get('window').height;
   const _map = useRef(null);
-  let center
-  if (props.items.length) {
-    center = averageCoord(props.items)
-    console.log('lat', center[0], props.items[0].latitude, 'long', center[1], props.items[0].longitude);
-  }
+  // let center
+  // if (props.items.length) {
+  //   center = averageCoord(props.items)
+  //   console.log('lat', center[0], props.items[0].latitude, 'long', center[1], props.items[0].longitude);
+  // }
 
   const [region, setRegion] = useState({
     latitude: 47.6492166666667, longitude: -122.351333333333,
@@ -34,6 +34,7 @@ const Map = (props) => {
         ref={_map}
         provider={null}
         initialRegion={region}
+        loadingEnabled={true}
         onRegionChangeComplete={region => setRegion(region)}
       >
         <Markers />
