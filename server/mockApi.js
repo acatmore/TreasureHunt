@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 const treasureApi = {
   getTreasureSites: async () => {
     await new Promise((res) =>
@@ -22,4 +21,3 @@ const treasureApi = {
 };
 
 export default treasureApi;
-
