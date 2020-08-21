@@ -1,19 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { checkTreasure } from '../store/actions/marker/markerActions';
-import { ActivityIndicator, View } from 'react-native';
+import { checkTreasure } from '../store/marker/actions';
+
 import { Marker } from 'react-native-maps';
 
 const Markers = (props) => {
-  const { items, checkTreasure, isChecking } = props;
+  const { items, checkTreasure } = props;
 
   return (
     <>
       {items &&
         items.map((item) => (
           <Marker
-            key={item.id}
+            key={item.id} //unique enough for this use case, otherwise needs changing
             coordinate={{ latitude: item.latitude, longitude: item.longitude }}
             onPress={() => checkTreasure(item)}
           />
@@ -23,10 +23,10 @@ const Markers = (props) => {
 };
 
 const mapStateToProps = (state) => {
-  const { items, isChecking } = state;
+  const { items, checkTreasure } = state;
   return {
     items,
-    isChecking,
+    checkTreasure,
   };
 };
 

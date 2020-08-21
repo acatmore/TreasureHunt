@@ -1,54 +1,45 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { ActivityIndicator, Platform, StyleSheet, View } from 'react-native';
+/* eslint-disable prettier/prettier */
+import React, { useRef, useEffect } from 'react';
+import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import MapView from 'react-native-maps';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchItems } from '../store/actions/map/mapActions';
+import { fetchItems } from '../store/map/actions';
 import Markers from './markers';
-import regionCoord from '../utils/regionCoord';
+import Error from './error';
 import { windowHeight } from '../utils/device';
 
 const Map = (props) => {
-  const { items, fetchItems, isFetching } = props;
-  const _map = useRef(null);
+  const { items, fetchItems, error, } = props;
   useEffect(() => {
     fetchItems();
   }, [fetchItems]);
-  console.log(items);
-  const [region, setRegion] = useState({});
-  const dataLoaded = 'latitude' in region;
-  useEffect(() => {
-    if (items && items.length && !dataLoaded) {
-      const data = regionCoord(items);
-      setRegion({
-        latitude: data[0],
-        longitude: data[1],
-        latitudeDelta: data[2],
-        longitudeDelta: data[3],
-      });
-    }
-  }, [items, dataLoaded]);
+  const _map = useRef(null);
 
   return (
-    <View style={dataLoaded ? styles.container : styles.loadingView}>
-      {dataLoaded && (
+    <View style={items.length ? styles.container : styles.loadingView}>
+      {items.length ? (
         <MapView
-          style={styles.mainView}
           ref={_map}
+          style={styles.mainView}
           provider={null}
           loadingEnabled={true}
-          initialRegion={region}
-          mapPadding={{
-            top: 20,
-            right: 20,
-            bottom: 20,
-            left: 20,
-          }}>
-          <Markers />
+          onMapReady={() => _map.current.fitToCoordinates(items, {
+            edgePadding: {
+              top: 50,
+              right: 50,
+              bottom: 50,
+              left: 50,
+            },
+            animated: false,
+          })}>
+          {error ? <Error /> : <Markers />}
         </MapView>
-      )}
-      {/* {!dataLoaded && <ActivityIndicator />} */}
-    </View>
+      ) : (
+          <ActivityIndicator />
+        )
+      }
+    </View >
   );
 };
 
@@ -72,10 +63,11 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = (state) => {
-  const { items, isFetching } = state;
+  const { items, error, region } = state;
   return {
     items,
-    isFetching,
+    error,
+    region,
   };
 };
 const mapDispatchToProps = (dispatch) => {

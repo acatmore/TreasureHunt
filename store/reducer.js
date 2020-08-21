@@ -1,34 +1,40 @@
-import * as MapActionTypes from './actions/map/mapActionTypes';
-import * as MarkerActionTypes from './actions/marker/markerActionTypes';
+/* eslint-disable prettier/prettier */
+import { FETCH_ITEMS, FETCH_ITEMS_SUCCESS, FETCH_ITEMS_ERROR } from './map/actions';
+import { CHECK_TREASURE, FETCH_TREASURE_SUCCESS, FETCH_TREASURE_ERROR } from './marker/actions';
 
 const initState = {
   items: [],
   isFetching: false,
   isChecking: false,
   error: '',
+  region: {},
 };
 
 const reducer = (state = initState, action) => {
   switch (action.type) {
-    case MapActionTypes.FETCH_ITEMS:
+    case FETCH_ITEMS:
       return { ...state, isFetching: true };
-    case MapActionTypes.FETCH_ITEMS_SUCCESS:
+
+    case FETCH_ITEMS_SUCCESS:
       return {
         ...state,
         isFetching: false,
         items: [...action.items],
       };
-    case MapActionTypes.FETCH_ITEMS_ERROR:
+
+    case FETCH_ITEMS_ERROR:
       return {
         ...state,
         error: action.error,
       };
-    case MarkerActionTypes.CHECK_TREASURE:
+
+    case CHECK_TREASURE:
       return {
         ...state,
         isChecking: true,
       };
-    case MarkerActionTypes.FETCH_TREASURE_SUCCESS: {
+
+    case FETCH_TREASURE_SUCCESS: {
       const newItems = state.items.map((item) => {
         if (item.id !== action.item.id) {
           return item;
@@ -44,7 +50,8 @@ const reducer = (state = initState, action) => {
         items: newItems,
       };
     }
-    case MarkerActionTypes.FETCH_TREASURE_ERROR:
+
+    case FETCH_TREASURE_ERROR:
       return {
         ...state,
         error: action.error,

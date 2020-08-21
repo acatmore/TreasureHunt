@@ -2,7 +2,6 @@ import { createStore, configureStore, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import reducer from './reducer';
 import rootSaga from './sagas';
-import devTools, { composeWithDevTools } from 'remote-redux-devtools';
 
 const sagaMiddleware = createSagaMiddleware();
 const enhance =

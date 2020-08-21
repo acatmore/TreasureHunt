@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface treasureHuntTests : XCTestCase
+@interface TreasureHuntTests : XCTestCase
 
 @end
 
-@implementation treasureHuntTests
+@implementation TreasureHuntTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Alert, Platform, Vibration } from 'react-native';
+import { Alert, Vibration } from 'react-native';
 
-const createAlert = (treasure) => {
+const createAlert = (treasure, message) => {
   const ONE_SECOND_IN_MS = 1000;
+  // style for android
   treasure && Vibration.vibrate(10 * ONE_SECOND_IN_MS);
-  Alert.alert(treasure ? 'You found treasure!' : 'No treasure here.');
+  Alert.alert(message);
 };
 
 export default createAlert;

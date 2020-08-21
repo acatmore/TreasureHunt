@@ -1,21 +1,19 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
+import { View } from 'react-native';
+import { connect } from 'react-redux';
+import Error from './components/error';
 import Map from './components/map';
 
 const App = (props) => {
-  return (
-    <SafeAreaView styles={styles.container}>
-      <Map />
-    </SafeAreaView>
-  );
+  const { error } = props;
+  return <View>{error ? <Error /> : <Map />}</View>;
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const mapStateToProps = (state) => {
+  const { error } = state;
+  return {
+    error,
+  };
+};
 
-export default App;
+export default connect(mapStateToProps, null)(App);

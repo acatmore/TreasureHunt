@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* treasureHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* treasureHuntTests.m */; };
+		00E356F31AD99517003FC87E /* TreasureHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TreasureHuntTests.m */; };
+		0A5691B1721F267B22847349 /* libPods-TreasureHunt-TreasureHuntTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC384B8647BA0C0FD34ED9D2 /* libPods-TreasureHunt-TreasureHuntTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* treasureHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* treasureHuntTests.m */; };
-		330C9CE63864F4B3CFDB8881 /* libPods-treasureHunt-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12685D5809A9761451AD36D /* libPods-treasureHunt-tvOS.a */; };
-		611FB521703C7BFDDFBD8827 /* libPods-treasureHunt-treasureHuntTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 154973027E6C62B16AEA8B48 /* libPods-treasureHunt-treasureHuntTests.a */; };
-		655BCC95A4D57B4EC2D3A88E /* libPods-treasureHunt-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DEFBFE2EEADC3F292EEE0E /* libPods-treasureHunt-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* TreasureHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TreasureHuntTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F4ACB54AA572880E7638C49F /* libPods-treasureHunt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A13C776AB7CBF9E7647B6B2 /* libPods-treasureHunt.a */; };
+		9259014686BB8C4D1ED7257F /* libPods-TreasureHunt-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63773379BAC97C1B8064FF /* libPods-TreasureHunt-tvOSTests.a */; };
+		D3E7AC8897EA1A160EE8E1B0 /* libPods-TreasureHunt-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E001374533CE4A00C99902E /* libPods-TreasureHunt-tvOS.a */; };
+		EC096ACB2AE61FE5638917C5 /* libPods-TreasureHunt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE73A2FCB7B27E10E328859 /* libPods-TreasureHunt.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = treasureHunt;
+			remoteInfo = TreasureHunt;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "treasureHunt-tvOS";
+			remoteInfo = "TreasureHunt-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* treasureHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = treasureHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* TreasureHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* treasureHuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = treasureHuntTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* treasureHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = treasureHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = treasureHunt/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = treasureHunt/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = treasureHunt/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = treasureHunt/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = treasureHunt/main.m; sourceTree = "<group>"; };
-		154973027E6C62B16AEA8B48 /* libPods-treasureHunt-treasureHuntTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-treasureHunt-treasureHuntTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* treasureHunt-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "treasureHunt-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* treasureHunt-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "treasureHunt-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CC9D41E1D433F53B57A5DF9 /* Pods-treasureHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt.release.xcconfig"; path = "Target Support Files/Pods-treasureHunt/Pods-treasureHunt.release.xcconfig"; sourceTree = "<group>"; };
-		5AD96A7827DB62D9452E6974 /* Pods-treasureHunt-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-treasureHunt-tvOSTests/Pods-treasureHunt-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6668917A4B7C329337009F1D /* Pods-treasureHunt-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-tvOS.release.xcconfig"; path = "Target Support Files/Pods-treasureHunt-tvOS/Pods-treasureHunt-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6AF2568810849F536DE151C2 /* Pods-treasureHunt-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-treasureHunt-tvOSTests/Pods-treasureHunt-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		767282857AD0B1D521BBF5CA /* Pods-treasureHunt-treasureHuntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-treasureHuntTests.debug.xcconfig"; path = "Target Support Files/Pods-treasureHunt-treasureHuntTests/Pods-treasureHunt-treasureHuntTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A13C776AB7CBF9E7647B6B2 /* libPods-treasureHunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-treasureHunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = treasureHunt/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B12685D5809A9761451AD36D /* libPods-treasureHunt-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-treasureHunt-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3F2218C98EB2F99D5EEEABD /* Pods-treasureHunt-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-treasureHunt-tvOS/Pods-treasureHunt-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C9A6D22AEF0588E44D4C8209 /* Pods-treasureHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt.debug.xcconfig"; path = "Target Support Files/Pods-treasureHunt/Pods-treasureHunt.debug.xcconfig"; sourceTree = "<group>"; };
-		CFA7B69CD11CB25554781DBF /* Pods-treasureHunt-treasureHuntTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-treasureHunt-treasureHuntTests.release.xcconfig"; path = "Target Support Files/Pods-treasureHunt-treasureHuntTests/Pods-treasureHunt-treasureHuntTests.release.xcconfig"; sourceTree = "<group>"; };
-		D3DEFBFE2EEADC3F292EEE0E /* libPods-treasureHunt-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-treasureHunt-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* TreasureHuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreasureHuntTests.m; sourceTree = "<group>"; };
+		019B73DFAF461CBF90DEB658 /* Pods-TreasureHunt-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-tvOSTests/Pods-TreasureHunt-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		06EBBED9FE9C371A824E73D6 /* Pods-TreasureHunt-TreasureHuntTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-TreasureHuntTests.release.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-TreasureHuntTests/Pods-TreasureHunt-TreasureHuntTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E001374533CE4A00C99902E /* libPods-TreasureHunt-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreasureHunt-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* TreasureHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TreasureHunt/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TreasureHunt/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TreasureHunt/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TreasureHunt/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TreasureHunt/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* TreasureHunt-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TreasureHunt-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* TreasureHunt-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TreasureHunt-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A15B4E29011D95D7155EE64 /* Pods-TreasureHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt.debug.xcconfig"; path = "Target Support Files/Pods-TreasureHunt/Pods-TreasureHunt.debug.xcconfig"; sourceTree = "<group>"; };
+		62ADC61DA56D44AC2A37B607 /* Pods-TreasureHunt-TreasureHuntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-TreasureHuntTests.debug.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-TreasureHuntTests/Pods-TreasureHunt-TreasureHuntTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE73A2FCB7B27E10E328859 /* libPods-TreasureHunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreasureHunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA04568DBE02E9C58F47A47 /* Pods-TreasureHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt.release.xcconfig"; path = "Target Support Files/Pods-TreasureHunt/Pods-TreasureHunt.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TreasureHunt/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E63773379BAC97C1B8064FF /* libPods-TreasureHunt-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreasureHunt-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9042436363A7F999F39BAC4D /* Pods-TreasureHunt-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-tvOS/Pods-TreasureHunt-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		94B023958B4C40049ED81427 /* Pods-TreasureHunt-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-tvOSTests/Pods-TreasureHunt-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6493EAA84F8C0B1260D86E1 /* Pods-TreasureHunt-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreasureHunt-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TreasureHunt-tvOS/Pods-TreasureHunt-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		EC384B8647BA0C0FD34ED9D2 /* libPods-TreasureHunt-TreasureHuntTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TreasureHunt-TreasureHuntTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611FB521703C7BFDDFBD8827 /* libPods-treasureHunt-treasureHuntTests.a in Frameworks */,
+				0A5691B1721F267B22847349 /* libPods-TreasureHunt-TreasureHuntTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4ACB54AA572880E7638C49F /* libPods-treasureHunt.a in Frameworks */,
+				EC096ACB2AE61FE5638917C5 /* libPods-TreasureHunt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330C9CE63864F4B3CFDB8881 /* libPods-treasureHunt-tvOS.a in Frameworks */,
+				D3E7AC8897EA1A160EE8E1B0 /* libPods-TreasureHunt-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655BCC95A4D57B4EC2D3A88E /* libPods-treasureHunt-tvOSTests.a in Frameworks */,
+				9259014686BB8C4D1ED7257F /* libPods-TreasureHunt-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* treasureHuntTests */ = {
+		00E356EF1AD99517003FC87E /* TreasureHuntTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* treasureHuntTests.m */,
+				00E356F21AD99517003FC87E /* TreasureHuntTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = treasureHuntTests;
+			path = TreasureHuntTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* treasureHunt */ = {
+		13B07FAE1A68108700A75B9A /* TreasureHunt */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = treasureHunt;
+			name = TreasureHunt;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7A13C776AB7CBF9E7647B6B2 /* libPods-treasureHunt.a */,
-				154973027E6C62B16AEA8B48 /* libPods-treasureHunt-treasureHuntTests.a */,
-				B12685D5809A9761451AD36D /* libPods-treasureHunt-tvOS.a */,
-				D3DEFBFE2EEADC3F292EEE0E /* libPods-treasureHunt-tvOSTests.a */,
+				6AE73A2FCB7B27E10E328859 /* libPods-TreasureHunt.a */,
+				EC384B8647BA0C0FD34ED9D2 /* libPods-TreasureHunt-TreasureHuntTests.a */,
+				0E001374533CE4A00C99902E /* libPods-TreasureHunt-tvOS.a */,
+				8E63773379BAC97C1B8064FF /* libPods-TreasureHunt-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,12 +159,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* treasureHunt */,
+				13B07FAE1A68108700A75B9A /* TreasureHunt */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* treasureHuntTests */,
+				00E356EF1AD99517003FC87E /* TreasureHuntTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E48C9C35E2EBAB13E1DF69E1 /* Pods */,
+				A49C1C6C4A051D6F4DBC0F6B /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,25 +174,25 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* treasureHunt.app */,
-				00E356EE1AD99517003FC87E /* treasureHuntTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* treasureHunt-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* treasureHunt-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* TreasureHunt.app */,
+				00E356EE1AD99517003FC87E /* TreasureHuntTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* TreasureHunt-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* TreasureHunt-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E48C9C35E2EBAB13E1DF69E1 /* Pods */ = {
+		A49C1C6C4A051D6F4DBC0F6B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9A6D22AEF0588E44D4C8209 /* Pods-treasureHunt.debug.xcconfig */,
-				3CC9D41E1D433F53B57A5DF9 /* Pods-treasureHunt.release.xcconfig */,
-				767282857AD0B1D521BBF5CA /* Pods-treasureHunt-treasureHuntTests.debug.xcconfig */,
-				CFA7B69CD11CB25554781DBF /* Pods-treasureHunt-treasureHuntTests.release.xcconfig */,
-				B3F2218C98EB2F99D5EEEABD /* Pods-treasureHunt-tvOS.debug.xcconfig */,
-				6668917A4B7C329337009F1D /* Pods-treasureHunt-tvOS.release.xcconfig */,
-				5AD96A7827DB62D9452E6974 /* Pods-treasureHunt-tvOSTests.debug.xcconfig */,
-				6AF2568810849F536DE151C2 /* Pods-treasureHunt-tvOSTests.release.xcconfig */,
+				4A15B4E29011D95D7155EE64 /* Pods-TreasureHunt.debug.xcconfig */,
+				7EA04568DBE02E9C58F47A47 /* Pods-TreasureHunt.release.xcconfig */,
+				62ADC61DA56D44AC2A37B607 /* Pods-TreasureHunt-TreasureHuntTests.debug.xcconfig */,
+				06EBBED9FE9C371A824E73D6 /* Pods-TreasureHunt-TreasureHuntTests.release.xcconfig */,
+				9042436363A7F999F39BAC4D /* Pods-TreasureHunt-tvOS.debug.xcconfig */,
+				D6493EAA84F8C0B1260D86E1 /* Pods-TreasureHunt-tvOS.release.xcconfig */,
+				94B023958B4C40049ED81427 /* Pods-TreasureHunt-tvOSTests.debug.xcconfig */,
+				019B73DFAF461CBF90DEB658 /* Pods-TreasureHunt-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,52 +200,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* treasureHuntTests */ = {
+		00E356ED1AD99517003FC87E /* TreasureHuntTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "treasureHuntTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TreasureHuntTests" */;
 			buildPhases = (
-				D7BADB749ECB9E5E3733F2D4 /* [CP] Check Pods Manifest.lock */,
+				6172D23A09F713877EB75318 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9A0C6819B80850F6B8D57210 /* [CP] Copy Pods Resources */,
+				7B3CB4DD5036F6DE2C88698D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = treasureHuntTests;
-			productName = treasureHuntTests;
-			productReference = 00E356EE1AD99517003FC87E /* treasureHuntTests.xctest */;
+			name = TreasureHuntTests;
+			productName = TreasureHuntTests;
+			productReference = 00E356EE1AD99517003FC87E /* TreasureHuntTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* treasureHunt */ = {
+		13B07F861A680F5B00A75B9A /* TreasureHunt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "treasureHunt" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TreasureHunt" */;
 			buildPhases = (
-				7273F257F3106D7C3E6BBFF1 /* [CP] Check Pods Manifest.lock */,
+				F838AD19A77D6C4F66723E7C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				AED6E2C906C2872510686C97 /* [CP] Copy Pods Resources */,
+				5A817C6E02CCA7BFE96F24AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = treasureHunt;
-			productName = treasureHunt;
-			productReference = 13B07F961A680F5B00A75B9A /* treasureHunt.app */;
+			name = TreasureHunt;
+			productName = TreasureHunt;
+			productReference = 13B07F961A680F5B00A75B9A /* TreasureHunt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* treasureHunt-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* TreasureHunt-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "treasureHunt-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TreasureHunt-tvOS" */;
 			buildPhases = (
-				06217D500045D99641C95FDD /* [CP] Check Pods Manifest.lock */,
+				702A0D6B2262A94D6EE430D1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -256,16 +256,16 @@
 			);
 			dependencies = (
 			);
-			name = "treasureHunt-tvOS";
-			productName = "treasureHunt-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* treasureHunt-tvOS.app */;
+			name = "TreasureHunt-tvOS";
+			productName = "TreasureHunt-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* TreasureHunt-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* treasureHunt-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* TreasureHunt-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "treasureHunt-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TreasureHunt-tvOSTests" */;
 			buildPhases = (
-				172FD9013BEF3276ADEE35C0 /* [CP] Check Pods Manifest.lock */,
+				C627BCA1A823D737401F1743 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -275,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "treasureHunt-tvOSTests";
-			productName = "treasureHunt-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* treasureHunt-tvOSTests.xctest */;
+			name = "TreasureHunt-tvOSTests";
+			productName = "TreasureHunt-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* TreasureHunt-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "treasureHunt" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TreasureHunt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* treasureHunt */,
-				00E356ED1AD99517003FC87E /* treasureHuntTests */,
-				2D02E47A1E0B4A5D006451C7 /* treasureHunt-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* treasureHunt-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* TreasureHunt */,
+				00E356ED1AD99517003FC87E /* TreasureHuntTests */,
+				2D02E47A1E0B4A5D006451C7 /* TreasureHunt-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* TreasureHunt-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,50 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		06217D500045D99641C95FDD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-treasureHunt-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		172FD9013BEF3276ADEE35C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-treasureHunt-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,7 +391,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		7273F257F3106D7C3E6BBFF1 /* [CP] Check Pods Manifest.lock */ = {
+		5A817C6E02CCA7BFE96F24AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreasureHunt/Pods-TreasureHunt-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreasureHunt/Pods-TreasureHunt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6172D23A09F713877EB75318 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,50 +424,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-treasureHunt-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TreasureHunt-TreasureHuntTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A0C6819B80850F6B8D57210 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-treasureHunt-treasureHuntTests/Pods-treasureHunt-treasureHuntTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-treasureHunt-treasureHuntTests/Pods-treasureHunt-treasureHuntTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AED6E2C906C2872510686C97 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-treasureHunt/Pods-treasureHunt-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-treasureHunt/Pods-treasureHunt-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7BADB749ECB9E5E3733F2D4 /* [CP] Check Pods Manifest.lock */ = {
+		702A0D6B2262A94D6EE430D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,7 +446,69 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-treasureHunt-treasureHuntTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TreasureHunt-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3CB4DD5036F6DE2C88698D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreasureHunt-TreasureHuntTests/Pods-TreasureHunt-TreasureHuntTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreasureHunt-TreasureHuntTests/Pods-TreasureHunt-TreasureHuntTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C627BCA1A823D737401F1743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TreasureHunt-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F838AD19A77D6C4F66723E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TreasureHunt-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* treasureHuntTests.m in Sources */,
+				00E356F31AD99517003FC87E /* TreasureHuntTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* treasureHuntTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* TreasureHuntTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* treasureHunt */;
+			target = 13B07F861A680F5B00A75B9A /* TreasureHunt */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* treasureHunt-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* TreasureHunt-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767282857AD0B1D521BBF5CA /* Pods-treasureHunt-treasureHuntTests.debug.xcconfig */;
+			baseConfigurationReference = 62ADC61DA56D44AC2A37B607 /* Pods-TreasureHunt-TreasureHuntTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = treasureHuntTests/Info.plist;
+				INFOPLIST_FILE = TreasureHuntTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/treasureHunt.app/treasureHunt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureHunt.app/TreasureHunt";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA7B69CD11CB25554781DBF /* Pods-treasureHunt-treasureHuntTests.release.xcconfig */;
+			baseConfigurationReference = 06EBBED9FE9C371A824E73D6 /* Pods-TreasureHunt-TreasureHuntTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = treasureHuntTests/Info.plist;
+				INFOPLIST_FILE = TreasureHuntTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,28 +645,28 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/treasureHunt.app/treasureHunt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureHunt.app/TreasureHunt";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9A6D22AEF0588E44D4C8209 /* Pods-treasureHunt.debug.xcconfig */;
+			baseConfigurationReference = 4A15B4E29011D95D7155EE64 /* Pods-TreasureHunt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3PVNN63A97;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = treasureHunt/Info.plist;
+				INFOPLIST_FILE = TreasureHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dcjljqpojrfsaf.shrop-qjf.aejf-hepfhweohf";
-				PRODUCT_NAME = treasureHunt;
+				PRODUCT_BUNDLE_IDENTIFIER = "-34720470239750923709523";
+				PRODUCT_NAME = TreasureHunt;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -675,21 +675,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CC9D41E1D433F53B57A5DF9 /* Pods-treasureHunt.release.xcconfig */;
+			baseConfigurationReference = 7EA04568DBE02E9C58F47A47 /* Pods-TreasureHunt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3PVNN63A97;
-				INFOPLIST_FILE = treasureHunt/Info.plist;
+				INFOPLIST_FILE = TreasureHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dcjljqpojrfsaf.shrop-qjf.aejf-hepfhweohf";
-				PRODUCT_NAME = treasureHunt;
+				PRODUCT_BUNDLE_IDENTIFIER = "-34720470239750923709523";
+				PRODUCT_NAME = TreasureHunt;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -697,7 +697,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F2218C98EB2F99D5EEEABD /* Pods-treasureHunt-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 9042436363A7F999F39BAC4D /* Pods-TreasureHunt-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -708,14 +708,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "treasureHunt-tvOS/Info.plist";
+				INFOPLIST_FILE = "TreasureHunt-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.treasureHunt-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TreasureHunt-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -725,7 +725,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6668917A4B7C329337009F1D /* Pods-treasureHunt-tvOS.release.xcconfig */;
+			baseConfigurationReference = D6493EAA84F8C0B1260D86E1 /* Pods-TreasureHunt-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -736,14 +736,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "treasureHunt-tvOS/Info.plist";
+				INFOPLIST_FILE = "TreasureHunt-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.treasureHunt-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TreasureHunt-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -753,7 +753,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AD96A7827DB62D9452E6974 /* Pods-treasureHunt-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 94B023958B4C40049ED81427 /* Pods-TreasureHunt-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -763,24 +763,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "treasureHunt-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TreasureHunt-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.treasureHunt-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TreasureHunt-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/treasureHunt-tvOS.app/treasureHunt-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureHunt-tvOS.app/TreasureHunt-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AF2568810849F536DE151C2 /* Pods-treasureHunt-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 019B73DFAF461CBF90DEB658 /* Pods-TreasureHunt-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -790,17 +790,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "treasureHunt-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TreasureHunt-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.treasureHunt-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TreasureHunt-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/treasureHunt-tvOS.app/treasureHunt-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureHunt-tvOS.app/TreasureHunt-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "treasureHuntTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TreasureHuntTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "treasureHunt" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TreasureHunt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "treasureHunt-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TreasureHunt-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "treasureHunt-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TreasureHunt-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "treasureHunt" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TreasureHunt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

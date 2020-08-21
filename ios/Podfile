@@ -3,14 +3,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'treasureHunt' do
+target 'TreasureHunt' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 
-  target 'treasureHuntTests' do
+  target 'TreasureHuntTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -25,10 +25,10 @@ target 'treasureHunt' do
   end
 end
 
-target 'treasureHunt-tvOS' do
-  # Pods for treasureHunt-tvOS
+target 'TreasureHunt-tvOS' do
+  # Pods for TreasureHunt-tvOS
 
-  target 'treasureHunt-tvOSTests' do
+  target 'TreasureHunt-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
