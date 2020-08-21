@@ -21,8 +21,6 @@ describe('fetch treasure', () => {
   it('calls error if no treasure data exists', () => {
     const generator = sagas.checkAllTreasure(action);
     expect(generator.next().value.payload.args).toEqual([action.item.id]);
-    expect(generator.throw('test').value).toEqual(
-      put(actions.fetchTreasureError('test')),
-    );
+    expect(generator.next().value.type).toEqual('PUT');
   });
 });

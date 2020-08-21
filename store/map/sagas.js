@@ -11,7 +11,7 @@ export function* fetchAllItems() {
     const items = yield call(api.getTreasureSites);
     yield put(actions.fetchItemsSuccess(items));
   } catch (e) {
-    yield put(actions.fetchItemsError(e));
+    yield put(actions.fetchItemsError(e.message));
   }
 }
 

@@ -6,7 +6,8 @@ import Map from './components/map';
 
 const App = (props) => {
   const { error } = props;
-  return <View>{error ? <Error /> : <Map />}</View>;
+  console.log(error);
+  return <View>{error.length ? <Error /> : <Map />}</View>;
 };
 
 const mapStateToProps = (state) => {

@@ -7,7 +7,6 @@ const initState = {
   isFetching: false,
   isChecking: false,
   error: '',
-  region: {},
 };
 
 const reducer = (state = initState, action) => {

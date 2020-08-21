@@ -16,7 +16,7 @@ export function* checkAllTreasure(action) {
       yield put(actions.fetchTreasureSuccess(item, treasure));
       yield put(alertActions.sendAlert(treasure, message));
     } catch (e) {
-      yield put(actions.fetchTreasureError(e));
+      yield put(actions.fetchTreasureError(e.message));
     }
   } else {
     const { treasure } = item;

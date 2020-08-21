@@ -6,11 +6,10 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchItems } from '../store/map/actions';
 import Markers from './markers';
-import Error from './error';
 import { windowHeight } from '../utils/device';
 
 const Map = (props) => {
-  const { items, fetchItems, error, } = props;
+  const { items, fetchItems, } = props;
   useEffect(() => {
     fetchItems();
   }, [fetchItems]);
@@ -33,7 +32,7 @@ const Map = (props) => {
             },
             animated: false,
           })}>
-          {error ? <Error /> : <Markers />}
+          <Markers />
         </MapView>
       ) : (
           <ActivityIndicator />
@@ -63,11 +62,9 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = (state) => {
-  const { items, error, region } = state;
+  const { items } = state;
   return {
     items,
-    error,
-    region,
   };
 };
 const mapDispatchToProps = (dispatch) => {

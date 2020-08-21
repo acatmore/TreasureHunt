@@ -9,7 +9,7 @@ test('checkTreasure action creator', () => {
   );
 });
 
-test('checkTreasureSuccess action creator', () => {
+test('fetchTreasureSuccess action creator', () => {
   expect(
     actions.fetchTreasureSuccess({ id: 1, latitude: 2, longitude: 3 }, false),
   ).toEqual(
@@ -21,7 +21,7 @@ test('checkTreasureSuccess action creator', () => {
   );
 });
 
-test('checkTreasureError action creator', () => {
+test('fetchTreasureError action creator', () => {
   expect(actions.fetchTreasureError('error')).toEqual(
     expect.objectContaining({
       type: actions.FETCH_TREASURE_ERROR,
