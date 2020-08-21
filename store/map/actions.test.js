@@ -1,4 +1,4 @@
-import * as actions from 'actions';
+import * as actions from './actions';
 
 test('fetchItems action creator', () => {
   expect(actions.fetchItems()).toEqual(
@@ -14,13 +14,13 @@ test('fetchItemsSuccess action creator', () => {
   ).toEqual(
     expect.objectContaining({
       type: actions.FETCH_ITEMS_SUCCESS,
-      items: { id: 1, latitude: 2, longitude: 3 },
+      items: [{ id: 1, latitude: 2, longitude: 3 }],
     }),
   );
 });
 
 test('fetchItemsError action creator', () => {
-  expect(actions.fetchItemsError({ error: 'error' })).toEqual(
+  expect(actions.fetchItemsError('error')).toEqual(
     expect.objectContaining({
       type: actions.FETCH_ITEMS_ERROR,
       error: 'error',

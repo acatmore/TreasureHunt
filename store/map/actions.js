@@ -9,7 +9,7 @@ export const fetchItemsSuccess = (items) => ({
   items,
 });
 
-export const fetchItemsFailure = (error) => ({
+export const fetchItemsError = (error) => ({
   type: FETCH_ITEMS_ERROR,
   error: error,
 });

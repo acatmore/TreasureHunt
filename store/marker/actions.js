@@ -12,7 +12,7 @@ export const fetchTreasureSuccess = (item, treasure) => {
 };
 
 export const fetchTreasureError = (error) => {
-  return { type: FETCH_TREASURE_ERROR, error: error.message };
+  return { type: FETCH_TREASURE_ERROR, error: error };
 };
 
 export const treasureExists = () => {

@@ -1,4 +1,4 @@
-import * as actions from 'actions';
+import * as actions from './actions';
 
 test('checkTreasure action creator', () => {
   expect(actions.checkTreasure({ id: 1, latitude: 2, longitude: 3 })).toEqual(
@@ -11,10 +11,7 @@ test('checkTreasure action creator', () => {
 
 test('checkTreasureSuccess action creator', () => {
   expect(
-    actions.checkTreasureSuccess(
-      { id: 1, latitude: 2, longitude: 3 },
-      { treasure: false },
-    ),
+    actions.fetchTreasureSuccess({ id: 1, latitude: 2, longitude: 3 }, false),
   ).toEqual(
     expect.objectContaining({
       type: actions.FETCH_TREASURE_SUCCESS,
@@ -25,7 +22,7 @@ test('checkTreasureSuccess action creator', () => {
 });
 
 test('checkTreasureError action creator', () => {
-  expect(actions.checkTreasureError({ error: 'error' })).toEqual(
+  expect(actions.fetchTreasureError('error')).toEqual(
     expect.objectContaining({
       type: actions.FETCH_TREASURE_ERROR,
       error: 'error',
@@ -34,7 +31,7 @@ test('checkTreasureError action creator', () => {
 });
 
 test('treasureExists action creator', () => {
-  expect(actions.checkTreasure()).toEqual(
+  expect(actions.treasureExists()).toEqual(
     expect.objectContaining({
       type: actions.TREASURE_DATA_EXISTS,
     }),
